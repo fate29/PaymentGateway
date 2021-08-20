@@ -1,0 +1,117 @@
+body
+{
+  margin: 0;
+  background-color: #63686E;
+}
+#top
+{
+  background-image: url("bg.jpg");
+}
+.navbar-dark .navbar-brand
+{
+    margin: 0 0 0 20px;
+    color: #D2C8C8;
+    font-family: 'Homemade Apple', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.navbar-button
+{
+  margin:0 20px 0 0;
+}
+@media (min-width:1000px)
+{.nav-list
+{
+  margin:0 0 0 65rem;
+  font-size: 1.25rem;
+}
+.donate-button
+{
+  margin: 500px 100px 500px 120px;
+}
+}
+.top-image {
+  background: #9e978e;
+    margin: 0 auto;
+      background-image: url("domabuse.jpg");
+    display: flex; /* to adjust width accordingly  */
+  height: 400px;
+  width: 700px;
+    border-bottom-left-radius: 360px;
+    border-bottom-right-radius:360px;
+}
+.title-img
+{
+  position: absolute;
+  margin: 70px 0 0 70px;
+
+}
+.Quote
+{
+font-family: 'Italiana', serif;
+display: flex;
+font-size: 3rem;
+font-weight:550;
+text-align: center;
+margin: 35px 100px;
+color: #DDDDDD;
+}
+#middle
+{
+  padding: 0;
+    background-image: url("bg2.jpg");
+    font-size: 1.5rem;
+}
+h2
+{
+  color: #CDBBA7;
+  font-size: 2.5rem;
+}
+.content
+{
+text-align: center;
+margin: 30px;
+padding: 50px 50px;
+border-radius: 20%;
+background-color: #323232;
+opacity: 0.3;
+font-weight: 1000;
+color: #E45826;
+}
+
+.donate-button
+{
+
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 25px;
+  background-color: #AAAAAA;
+  font-family: 'Italiana', serif;
+  color: #99154E;
+  font-weight: 600;
+  border-color: black;
+}
+.donate-button:hover
+{
+  background-color: #CDF0EA;
+  color: #99154E;
+  border-color: black;
+}
+#footer
+{
+  text-align: center;
+  margin: 13px 0 ;
+  background-color:#171717;
+  color: #EEEBDD;
+  padding: 0 0 20px;
+}
+
+.f-icon
+{
+  margin: 45px 7px 20px;
+  color: #EEEBDD;
+}
+.f-icon:hover
+{
+    color:#AF8BAF;
+}
